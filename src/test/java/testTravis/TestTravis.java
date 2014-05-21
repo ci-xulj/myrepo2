@@ -8,4 +8,8 @@ public class TestTravis {
 	public void testHi(){
 		HiTravis.sayHi();
 	}
+	@Test
+	public void testBye(){
+		HiTravis.sayBye();
+	}
 }
